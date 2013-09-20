@@ -62,11 +62,6 @@ public class Server
 
                     //запрос в виде строки
                     String request = requestBuilder.toString().trim();
-                    //System.out.println(request);
-
-//                    if (request.trim().isEmpty() || request.contains("favicon.ico")){
-//                        return;
-//                    }
 
                     String path = request.split(" ")[1];
                     path = URLDecoder.decode(path, "UTF-8");
@@ -77,8 +72,6 @@ public class Server
                     switch (request.substring(0, request.indexOf(" "))){
 
                         case "GET":
-
-
                             if (resource.isFile()){
                                 FileInputStream fileReader = new FileInputStream(resource);
 

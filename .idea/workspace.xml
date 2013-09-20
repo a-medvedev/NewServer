@@ -14,7 +14,7 @@
     <file path="/404.html" changelist="410256ea-87ce-4de3-a50d-163759970894" time="1379617260452" ignored="false" />
     <file path="/Server.java" changelist="410256ea-87ce-4de3-a50d-163759970894" time="1379678819364" ignored="false" />
     <file path="$PROJECT_DIR$/../HTTPServer/src/com/suhorukov/server/Server.java" changelist="410256ea-87ce-4de3-a50d-163759970894" time="1379647440614" ignored="false" />
-    <file path="/Dummy.txt" changelist="410256ea-87ce-4de3-a50d-163759970894" time="1379678971922" ignored="false" />
+    <file path="/Dummy.txt" changelist="410256ea-87ce-4de3-a50d-163759970894" time="1379679191686" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,11 +83,10 @@
       <file leaf-file-name="Server.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/suhorukov/newserver/Server.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="120" column="9" selection-start="4351" selection-end="4351" vertical-scroll-proportion="0.5277778">
+            <state line="63" column="70" selection-start="1949" selection-end="1949" vertical-scroll-proportion="2.034188">
               <folding>
-                <element signature="e#1010#4330#0" expanded="true" />
-                <element signature="e#1970#2000#0" expanded="false" />
-                <element signature="e#4319#4320#0" expanded="true" />
+                <element signature="e#1010#4130#0" expanded="true" />
+                <element signature="e#4119#4120#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -419,7 +418,11 @@
       <created>1379678986354</created>
       <updated>1379678986354</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="19-09">
+      <created>1379679195860</created>
+      <updated>1379679195860</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -526,9 +529,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#1010#4330#0" expanded="true" />
-            <element signature="e#1970#2000#0" expanded="false" />
-            <element signature="e#4319#4320#0" expanded="true" />
+            <element signature="e#1010#4130#0" expanded="true" />
+            <element signature="e#4119#4120#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -622,11 +624,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/suhorukov/newserver/Server.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="120" column="9" selection-start="4351" selection-end="4351" vertical-scroll-proportion="0.5277778">
+        <state line="63" column="70" selection-start="1949" selection-end="1949" vertical-scroll-proportion="2.034188">
           <folding>
-            <element signature="e#1010#4330#0" expanded="true" />
-            <element signature="e#1970#2000#0" expanded="false" />
-            <element signature="e#4319#4320#0" expanded="true" />
+            <element signature="e#1010#4130#0" expanded="true" />
+            <element signature="e#4119#4120#0" expanded="true" />
           </folding>
         </state>
       </provider>
