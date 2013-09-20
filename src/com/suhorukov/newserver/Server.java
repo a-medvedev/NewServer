@@ -34,11 +34,14 @@ public class Server
             return;
         }
 
+        if (client != null){
         //Поток для работы с клиентом
+
         final Socket finalClient = client;
-        new Runnable() {
+        new Thread(new Runnable() {
             @Override
             public void run() {
+
                 //Socket client = null;
                 OutputStream sockOut = null;
                 InputStream sockIn = null;
@@ -113,13 +116,15 @@ public class Server
                     }
                 }
             }
-        }.run();
+        }).start();
 
-        try {
-            client.close();
-        } catch (IOException e) {
-            e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
         }
+//        try {
+//
+//            client.close();
+//        } catch (IOException e) {
+//            e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+//        }
     }
 
     private String generateHeaders(File resource){
