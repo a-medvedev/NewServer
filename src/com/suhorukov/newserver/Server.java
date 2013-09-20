@@ -119,12 +119,6 @@ public class Server
         }).start();
 
         }
-//        try {
-//
-//            client.close();
-//        } catch (IOException e) {
-//            e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
-//        }
     }
 
     private String generateHeaders(File resource){
